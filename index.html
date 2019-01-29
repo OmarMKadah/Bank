@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/styles.css" rel="stylesheet" type="text/css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="js/scripts.js"></script>
+    <title>Address Book</title>
+    <title></title>
+  </head>
+  <body>
+    <div class="container">
+      <h1>Bank of Bank</h1>
+      <div class="row">
+        <div class="col-md-6">
+          <hr>
+          <h2>Register New Account</h2>
+          <form id="new-contact">
+            <div class="form-group">
+              <label for="new-name">First Name</label>
+              <input type="text"  class="form-control" id="new-name">
+            </div>
+            <div class="form-group">
+              <label for="new-last-name">Last Name</label>
+              <input type="text"  class="form-control" id="new-deposit">
+            </div>
+            <button type="submit" class="btn-primary">Add</button>
+          </form>
+          <hr>
+          <h2>Bank Account Balance:</h2>
+          <ul id="contacts">
+          </ul>
+        </div>
+        <div class="col-md-6">
+          <div id="show-contact">
+            <hr>
+            <h2> Deposit/Withdraw </h2>
+            <div class="form-group">
+              <label for="deposit">Deposit</label>
+              <input type="text"  class="form-control" id="deposit">
+            </div>
+            <div class="form-group">
+              <label for="withdraw">Withdraw</label>
+              <input type="text"  class="form-control" id="withdraw">
+            </div>
+            <hr>
+            <div id="ad">
+            </div>
+            <div id="buttons">
+              <button class='deposit' id='deposit'>Deposit/withdraw</button>
+            </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
